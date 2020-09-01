@@ -5,9 +5,7 @@ import CardList from "./CardList";
 const Products = ({ products }) => {
   const [value, setValue] = useState("Select");
 
-  const setList = (e) => {
-    setValue(e.target.value);
-  };
+ 
 
   return (
     <div className="products">
