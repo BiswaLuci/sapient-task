@@ -19,8 +19,7 @@ const App = () => {
       .then((res) => {
        // console.log(res.data);
         setItems(res.data);
-      })
-      .catch((err) => {});
+      });
   }, [yearSelected, launch_success, land_success]);
 
   const setYear = (year) => {
